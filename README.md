@@ -15,5 +15,17 @@ A repository of AutoSplitters for Doom Eternal level mods
 8. Double click: Scriptable Auto Splitter and select: Browse...
 9. Select provided .asl file for the level you are playing
 
-### Contributing
+## Optional Layouts
+I have provided some optional layouts for you to use in LiveSplit. 
+
+Just load the layout you want in LiveSplit and add the Autosplitter to it.
+
+### chroma key layouts
+
+I recommend using the default OBS settings with these tweaks:
+- Similarity  = 1
+- smoothness  = 1
+- key color spill reduction = 1 
+
+## Contributing
 If you would like to contribute to this repository please submit a pull request or contact me on Discord: MicrowavedBunny
