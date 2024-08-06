@@ -2,7 +2,7 @@
 <Run version="1.7.0">
   <GameIcon><![CDATA[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]]></GameIcon>
   <GameName>DOOM Eternal</GameName>
-  <CategoryName>Unholy Urdak - Balanced</CategoryName>
+  <CategoryName>Unholy Urdak</CategoryName>
   <LayoutPath>
   </LayoutPath>
   <Metadata>
@@ -119,10 +119,13 @@
     <Attempt id="101" started="08/06/2024 03:03:01" isStartedSynced="True" ended="08/06/2024 03:04:49" isEndedSynced="True" />
     <Attempt id="102" started="08/06/2024 03:16:17" isStartedSynced="True" ended="08/06/2024 03:26:45" isEndedSynced="True" />
     <Attempt id="103" started="08/06/2024 03:27:19" isStartedSynced="True" ended="08/06/2024 03:59:31" isEndedSynced="True" />
+    <Attempt id="104" started="08/06/2024 16:52:31" isStartedSynced="True" ended="08/06/2024 16:52:34" isEndedSynced="True" />
+    <Attempt id="105" started="08/06/2024 17:16:40" isStartedSynced="True" ended="08/06/2024 17:26:26" isEndedSynced="True" />
+    <Attempt id="106" started="08/06/2024 17:40:40" isStartedSynced="True" ended="08/06/2024 17:42:27" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
-      <Name>-Holt Start</Name>
+      <Name>Holt Start</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -131,7 +134,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Maykr Baron Intro</Name>
+      <Name>Maykr Baron Intro</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -140,18 +143,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Cyber Caco Intro</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime>
-        <GameTime>00:00:00</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>-Holt Arena 1</Name>
+      <Name>Holt Platforming Fight</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -160,7 +152,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Armored Maykr Drone Intro</Name>
+      <Name>Holt Arena 1 (Forest Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -169,7 +161,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Schreecher Spirit Intro </Name>
+      <Name>Armored Drone Intro</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -178,7 +170,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Schreecher Spirit Intro cont.</Name>
+      <Name>Pillars 1</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -187,7 +179,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Giant Tentacle</Name>
+      <Name>Pillars 2</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -196,7 +188,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Holt Arena 2</Name>
+      <Name>City Entrance</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -205,7 +197,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Maurader 1v1 (1v1 Bro)</Name>
+      <Name>Holt Arena 2 (City Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -214,7 +206,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Mastermind Intro</Name>
+      <Name>1v1 Me Bro</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -223,7 +215,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Eternal Demons Intro</Name>
+      <Name>City Platform</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -232,7 +224,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Boss Arena 1 (Double Sammer)</Name>
+      <Name>Eternal Demons Intro</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -241,7 +233,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Boss Arena 2 (Eternal Caco)</Name>
+      <Name>Boss Arena 1 (Double Samur)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -250,7 +242,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Boss Arena 3 (DPS Race)</Name>
+      <Name>Boss Arena 2 (Eternal Caco)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -259,7 +251,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Pace Break</Name>
+      <Name>Boss Arena 3 (Super Heavys)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -268,7 +260,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Split Eternals</Name>
+      <Name>Pace Break</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -277,7 +269,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Double Marauder Surprise</Name>
+      <Name>Mirrored Arenas</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -286,7 +278,16 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>{The Holt (19)}Holt Final</Name>
+      <Name>Bridge</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>Holt Final</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -304,7 +305,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Urdak Start</Name>
+      <Name>Urdak Start</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -313,7 +314,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Maykr Baron Faceplant</Name>
+      <Name>Eternal Totem Spirit</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -322,7 +323,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Archvile Surprise (I am under d water)</Name>
+      <Name>Archvile Surprise (I am under de water)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -331,7 +332,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Stoplight</Name>
+      <Name>Traffic Light Fun</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -340,7 +341,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Urdak Arena 1</Name>
+      <Name>Urdak Arena 1 (Blue Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -349,7 +350,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Vents (Snow Dog)</Name>
+      <Name>Vents (Snow Dog)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -358,7 +359,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Firin' Mah Lazar</Name>
+      <Name>Eternal Laser (Firin' Mah Lazar)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -367,7 +368,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Possessed Pinkys</Name>
+      <Name>Pinky Hallway</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -376,7 +377,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Eternally Cursed</Name>
+      <Name>Eternally Cursed</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -385,7 +386,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Urdak Arena 2</Name>
+      <Name>Urdak Arena 2 (Green Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -394,7 +395,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Platforming In A Doom Game?</Name>
+      <Name>PLATFORMING IN A DOOM GAME!!!1!</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -403,7 +404,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-The Floor Is Lava</Name>
+      <Name>Urdak Platforming Fight (The Floor Is Lava)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -412,7 +413,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Screecher City</Name>
+      <Name>Screecher Caves</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -421,7 +422,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Timed Buff Totem</Name>
+      <Name>Buff Totem Laser Room</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -430,7 +431,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Khan Maykr Part 1</Name>
+      <Name>Khan Maykr Phase 1 (1v1)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -439,7 +440,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-ザ・ワールド　(ZA WARUDO)</Name>
+      <Name>ザ・ワールド (ZA WARUDO)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -448,7 +449,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Khan Maykr Part 2</Name>
+      <Name>Khan Maykr Phase 2 (Eternal Samurs)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -457,7 +458,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Khan Maykr Part 3</Name>
+      <Name>Khan Maykr Phase 3 (Shielded)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -466,7 +467,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>{Urdak(19)}Escape!</Name>
+      <Name>Escape!</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />

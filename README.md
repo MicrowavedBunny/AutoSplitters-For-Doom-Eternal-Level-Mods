@@ -15,10 +15,15 @@ A repository of AutoSplitters for Doom Eternal level mods
 8. Double click: Scriptable Auto Splitter and select: Browse...
 9. Select provided .asl file for the level you are playing
 
+## Important Note
+If the level you are selecting has a balanced and an unbalanced version but the repo only has one asl file (or isnt separated in folders respectively) this means that the autosplitter works with both versions of the level.
+
+In this case you may want to edit the split file, 'Catagory' to include balanced or unbalanced respectively.
+
+If the split file says sub-split, you need to use a layout that has sub-split enabled. (I have provided one; see below)
+
 ## Optional Layouts
 I have provided some optional layouts for you to use in LiveSplit. 
-
-If the split file says sub-split, you need to use a layout that has sub-split enabled.
 
 Just load the layout you want in LiveSplit and add the Autosplitter to it.
 

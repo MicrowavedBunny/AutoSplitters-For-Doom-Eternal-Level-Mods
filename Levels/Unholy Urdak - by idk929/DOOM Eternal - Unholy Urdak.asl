@@ -6,6 +6,7 @@ state("DOOMEternalx64vk", "6.66 Rev 2.2 (Steam)")
 {
     string60 currentCheckpoint : 0x6B07D00, 0x1108;
     int currentCheckpointptr : 0x6B07D00;
+    bool isLoading : 0x51C8398;
 	byte isLoading2: 0x6930410;
     bool isInGame : 0x68E4870;
 	int cutsceneID: 0x5163A48;
@@ -26,9 +27,31 @@ startup
 	vars.gameVersion = 0;
     vars.isCelestialEncounterComplete = false; //to ensure people dont die and redo the encounter causing another split due to using encounter instead of checkpoint to check for a split
     vars.isHolt17EncounterComplete = false; //to ensure people dont die and redo the encounter causing another split due to using encounter instead of checkpoint to check for a split
-    vars.skipPreventionMessage = false; // to ensure only one pop up
+    vars.skipPreventionMessage = false; // to ensure only one pop up.
     vars.endSplitPos = false; //check end trigger in update
     vars.startPosCheck = false; // used after last checkpoint to limit the amount of time/resources the PosCheck is running/using.
+    
+    //for removing load times
+	vars.newSplitMethod = true;
+    vars.ebs = false;
+    vars.injectEBS = false;
+    vars.loadscreen = false;
+    vars.timeToRemove = 0;
+	vars.setGameTime = false;
+
+    if (timer.CurrentTimingMethod == TimingMethod.RealTime) {        
+        var timingMessage = MessageBox.Show (
+            "This game uses Time without Loads (Game Time) as the main timing method.\n"+
+            "LiveSplit is currently set to show Real Time (RTA).\n"+
+            "Would you like to set the timing method to Game Time?",
+            "Doom Eternal | LiveSplit",
+            MessageBoxButtons.YesNo,MessageBoxIcon.Question
+        );
+    
+        if (timingMessage == DialogResult.Yes) {
+        timer.CurrentTimingMethod = TimingMethod.GameTime;
+        }
+    }
 }
 
 init
@@ -74,6 +97,40 @@ update
 exit
 {
 	timer.IsGameTimePaused = true;
+}
+
+isLoading
+{
+	// Blackscreen detection
+	// 	Current Real Time is saved upon the start and end of a blackscreen, then the diff is injected back into Game Time in the gameTime() Action
+    var loading2 = false;
+    if(vars.gameVersion >= 30) loading2 = current.isLoading2 > 0;
+    else loading2 = current.isLoading2;
+    
+    if(vars.ebs)
+    {
+		// This condition checks if the blackscreen ends or if a new level is loaded during a blackscreen
+        if(!current.isLoading || (current.isLoading && current.isLoading2 != old.isLoading2))
+        {
+            vars.ebs = false;
+            vars.timeAfterEBS = timer.CurrentTime.RealTime;
+            vars.injectEBS = true;
+        }
+    }
+    if(current.isLoading && !loading2 && current.isInGame && !vars.ebs)
+    {
+        vars.ebs = true;
+        vars.timeBeforeEBS = timer.CurrentTime.RealTime;
+    }
+    
+	if(vars.gameVersion >= 30)
+	{
+		// 3.0 - isLoading2 now has a value of 2 if loading into a new level for the first time
+		vars.loadscreen = (current.isLoading || current.isLoading2 > 0 || !current.isInGame);
+		return vars.loadscreen;
+	}
+	vars.loadscreen = (current.isLoading || current.isLoading2 || !current.isInGame);
+	return vars.loadscreen;
 }
 
 split
@@ -143,6 +200,26 @@ split
     }
     if(vars.endSplitPos) //checks position to the end of level trigger for final split. Only after previous split.
         return true;
+}
+
+gameTime
+{
+	if(vars.setGameTime)
+	{
+		vars.setGameTime = false;
+		return TimeSpan.FromSeconds(-vars.timeToRemove);
+	}
+
+    // Injects EBS time, minus one second, back into Game Timer if the EBS time is greater than two seconds.
+	// 	If a blackscreen's duration is greater than two seconds, this guarantees that it is an EBS.
+	// 	Subtracting a second is to account for the normal blackscreen length that always happens upon reloads/quitouts.
+    if(vars.injectEBS)
+    {
+        vars.injectEBS = false;
+        var diff = vars.timeAfterEBS - vars.timeBeforeEBS;
+        var newGameTime = timer.CurrentTime.GameTime + diff - TimeSpan.FromSeconds(1);
+        return (diff >= TimeSpan.FromSeconds(2)) ? newGameTime : timer.CurrentTime.GameTime;
+    }
 }
 
 start

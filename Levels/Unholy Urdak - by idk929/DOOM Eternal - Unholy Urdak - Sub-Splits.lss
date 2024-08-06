@@ -14,7 +14,7 @@
     <Variables />
   </Metadata>
   <Offset>00:00:00</Offset>
-  <AttemptCount>12</AttemptCount>
+  <AttemptCount>0</AttemptCount>
   <AttemptHistory>
     <Attempt id="1" started="07/28/2024 01:40:03" isStartedSynced="False" ended="07/28/2024 01:40:08" isEndedSynced="False" />
     <Attempt id="2" started="07/28/2024 01:43:18" isStartedSynced="False" ended="07/28/2024 01:43:19" isEndedSynced="False" />
@@ -119,6 +119,9 @@
     <Attempt id="101" started="08/06/2024 03:03:01" isStartedSynced="True" ended="08/06/2024 03:04:49" isEndedSynced="True" />
     <Attempt id="102" started="08/06/2024 03:16:17" isStartedSynced="True" ended="08/06/2024 03:26:45" isEndedSynced="True" />
     <Attempt id="103" started="08/06/2024 03:27:19" isStartedSynced="True" ended="08/06/2024 03:59:31" isEndedSynced="True" />
+    <Attempt id="104" started="08/06/2024 16:52:31" isStartedSynced="True" ended="08/06/2024 16:52:34" isEndedSynced="True" />
+    <Attempt id="105" started="08/06/2024 17:16:40" isStartedSynced="True" ended="08/06/2024 17:26:26" isEndedSynced="True" />
+    <Attempt id="106" started="08/06/2024 17:40:40" isStartedSynced="True" ended="08/06/2024 17:42:27" isEndedSynced="True" />
   </AttemptHistory>
   <Segments>
     <Segment>
@@ -140,18 +143,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Cyber Caco Intro</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best" />
-      </SplitTimes>
-      <BestSegmentTime>
-        <GameTime>00:00:00</GameTime>
-      </BestSegmentTime>
-      <SegmentHistory />
-    </Segment>
-    <Segment>
-      <Name>-Holt Arena 1</Name>
+      <Name>-Holt Platforming Fight</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -160,7 +152,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Armored Maykr Drone Intro</Name>
+      <Name>-Holt Arena 1 (Forest Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -169,7 +161,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Schreecher Spirit Intro </Name>
+      <Name>-Armored Drone Intro</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -178,7 +170,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Schreecher Spirit Intro cont.</Name>
+      <Name>-Pillars 1</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -187,7 +179,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Giant Tentacle</Name>
+      <Name>-Pillars 2</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -196,7 +188,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Holt Arena 2</Name>
+      <Name>-City Entrance</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -205,7 +197,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Maurader 1v1 (1v1 Bro)</Name>
+      <Name>-Holt Arena 2 (City Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -214,7 +206,16 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Mastermind Intro</Name>
+      <Name>-1v1 Me Bro</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best" />
+      </SplitTimes>
+      <BestSegmentTime />
+      <SegmentHistory />
+    </Segment>
+    <Segment>
+      <Name>-City Platform</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -232,7 +233,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Boss Arena 1 (Double Sammer)</Name>
+      <Name>-Boss Arena 1 (Double Samur)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -250,7 +251,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Boss Arena 3 (DPS Race)</Name>
+      <Name>-Boss Arena 3 (Super Heavys)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -268,7 +269,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Split Eternals</Name>
+      <Name>-Mirrored Arenas</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -277,7 +278,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Double Marauder Surprise</Name>
+      <Name>-Bridge</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -313,7 +314,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Maykr Baron Faceplant</Name>
+      <Name>-Eternal Totem Spirit</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -322,7 +323,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Archvile Surprise (I am under d water)</Name>
+      <Name>-Archvile Surprise (I am under de water)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -331,7 +332,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Stoplight</Name>
+      <Name>-Traffic Light Fun</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -340,7 +341,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Urdak Arena 1</Name>
+      <Name>-Urdak Arena 1 (Blue Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -358,7 +359,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Firin' Mah Lazar</Name>
+      <Name>-Eternal Laser (Firin' Mah Lazar)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -367,7 +368,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Possessed Pinkys</Name>
+      <Name>-Pinky Hallway</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -385,7 +386,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Urdak Arena 2</Name>
+      <Name>-Urdak Arena 2 (Green Arena)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -394,7 +395,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Platforming In A Doom Game?</Name>
+      <Name>-PLATFORMING IN A DOOM GAME!!!1!</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -403,7 +404,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-The Floor Is Lava</Name>
+      <Name>-Urdak Platforming Fight (The Floor Is Lava)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -412,7 +413,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Screecher City</Name>
+      <Name>-Screecher Caves</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -421,7 +422,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Timed Buff Totem</Name>
+      <Name>-Buff Totem Laser Room</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -430,7 +431,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Khan Maykr Part 1</Name>
+      <Name>-Khan Maykr Phase 1 (1v1)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -448,7 +449,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Khan Maykr Part 2</Name>
+      <Name>-Khan Maykr Phase 2 (Eternal Samurs)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
@@ -457,7 +458,7 @@
       <SegmentHistory />
     </Segment>
     <Segment>
-      <Name>-Khan Maykr Part 3</Name>
+      <Name>-Khan Maykr Phase 3 (Shielded)</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best" />
