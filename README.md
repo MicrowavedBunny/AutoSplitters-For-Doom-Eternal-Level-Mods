@@ -18,6 +18,8 @@ A repository of AutoSplitters for Doom Eternal level mods
 ## Optional Layouts
 I have provided some optional layouts for you to use in LiveSplit. 
 
+If the split file says sub-split, you need to use a layout that has sub-split enabled.
+
 Just load the layout you want in LiveSplit and add the Autosplitter to it.
 
 ### chroma key layouts
