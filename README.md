@@ -18,7 +18,10 @@ A repository of AutoSplitters for Doom Eternal level mods
 ## Important Note
 If the level you are selecting has a balanced and an unbalanced version but the repo only has one asl file (or isnt separated in folders respectively) this means that the autosplitter works with both versions of the level.
 
-In this case you may want to edit the split file, 'Catagory' to include balanced or unbalanced respectively.
+In this case you may want to edit the split file, 'Category' to include balanced or unbalanced respectively.
+
+If the level has optional encounters you need to decide if you are going to do them all or none of them before hand and use the respective split file.
+If you do an optional encounter in a no optional encounter split file it will break the timer.
 
 If the split file says sub-split, you need to use a layout that has sub-split enabled. (I have provided one; see below)
 
